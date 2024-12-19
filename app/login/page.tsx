@@ -7,15 +7,14 @@ import { ClientSafeProvider } from "next-auth/react";
 
 const page = () => {
   const { handleLogin, provider } = UseHandler();
-  const image = "/images/Spotify-Logo.png";
   return (
     <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
       {provider !== undefined ? (
         <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
           <Image
             className="mb-5"
-            src={image}
-            alt={image}
+            src="/images/Spotify-Logo.png"
+            alt="/images/Spotify-Logo.png"
             width={256}
             height={256}
           />
