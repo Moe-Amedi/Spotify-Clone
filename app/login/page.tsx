@@ -13,8 +13,8 @@ const page = () => {
         <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
           <Image
             className="mb-5"
-            src="/images/Spotify-Logo.png"
-            alt="/images/Spotify-Logo.png"
+            src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png"
+            alt="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png"
             width={256}
             height={256}
           />
